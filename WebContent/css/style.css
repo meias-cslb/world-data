@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	color: #404040;
+	font-family: 'Kosugi', sans-serif;
+}
+
+th {
+	background-color: #ffff99;
+	font-weight: bold;
+	border: 3px solid lightgray;
+/* 	空白をそのまま空白として扱う */
+	white-space: wrap;
+	padding: 8px;
+}
+
+td {
+	border: 1.5px solid lightgray;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #ffffb2;
+}
+
+#forms {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
+
+#forms div {
+	margin: 10px;
+}
+
+table {
+	border: 3px solid lightgray;
+	border-collapse: collapse;
+}
+
+#sort {
+	background-color: #f39800;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px lightgray;
+	padding: 10px 20px;
+	color: white;
+	font-size: 16px;
+	outline: none;
+}
+
+#sort:hover {
+	opacity:0.8;
+	}
+
+#sort:active {
+	-webkit-transform: translate(0,2px);
+	-moz-transform: translate(0,2px);
+	transform: translate(0,2px);
+	border-bottom:none;
+	border: none;
+	}
+
+select {
+	padding: 8px 15px;
+	font-size: 16px;
+	outline: none;
+	border-radius: 5px;
+}
+
+option {
+	outline: none;
+}
